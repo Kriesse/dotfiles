@@ -1,0 +1,14 @@
+[user]
+	name = Kristina Schneider
+	email = me@kristinaschneider.com
+[core]
+	editor = cursor --wait
+	excludesfile = ~/.gitignore_global
+[color]
+  	ui = true
+[push]
+  	default = current
+[pull]
+  rebase = false
+[alias]
+	set-upstream = !git branch --set-upstream-to=origin/$(git branch --show-current) $(git branch --show-current)
