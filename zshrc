@@ -1,4 +1,3 @@
-cat <<'EOF' > ~/dotfiles/zshrc
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="devcontainers"
 plugins=(git)
@@ -31,4 +30,3 @@ alias ni='npm install'
 alias yi='yarn install --check-files'
 alias yuc='yarn upgrade cobot_assets'
 alias puc='pnpm upgrade cobot_assets'
-EOF

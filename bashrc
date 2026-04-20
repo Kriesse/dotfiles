@@ -1,4 +1,3 @@
-cat <<'EOF' > ~/dotfiles/bashrc
 # Git shortcuts
 alias gcm='git commit -m'
 alias gl1="git log --pretty=format:'%H' -n 1"
@@ -24,4 +23,3 @@ alias ni='npm install'
 alias yi='yarn install --check-files'
 alias yuc='yarn upgrade cobot_assets'
 alias puc='pnpm upgrade cobot_assets'
-EOF
